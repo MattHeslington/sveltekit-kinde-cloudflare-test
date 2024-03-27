@@ -11,7 +11,7 @@
 		<a href="/protected">protected</a>
 		{#if isAuthenticated}
 			<a href="/profile">profile</a>
-			<a href="/logout">log out</a>
+			<a href="/api/auth/logout">log out</a>
 		{:else}
 			<a href="/login">login</a>
 			<a href="/signup">sign up</a>
